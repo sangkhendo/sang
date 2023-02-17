@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<h2> NAMI Form</h2>
+
+    <form style="text-align: center;" method="get"> 
+
+        <label for="fname"> First name: </label>
+        <input type="text" placeholder=" Ex.rita" name="fname" style="margin-top: 10px;" required/> 
+
+        <br> 
+
+        <label for="lname"> Last name: </label>
+        <input type="text" placeholder="Ex.rai" name="lname" style="margin-top: 10px;" required/>
+
+        <br>
+        <label for="email"> Email:</label>
+        <input type="email" name="email" placeholder="Ex.rita12@gmail.com" style="margin-top: 10px;" required/>
+
+        <br>
+        <label for="password"> Password:</label>
+        <input type="password" name="password " placeholder="**********" style="margin-top: 10px;" required/>
+
+        <br> 
+
+        <!--  radio ho la -->
+        <label for="gender"> Gender: </label>
+        <input value="male" type="radio" name="gender" id="gender"/> Male 
+        <input value="female" type= "radio" name="gender" id="gender"/> Female
+        <input value="others" type="radio" name="gender" id="gender"/> Other  
+         <br>
+         
+        <!-- radioo  ho la -->
+        <label for="section">Section:</label>
+        <input  type="radio" name="section" value="A"/>A 
+        <input  type="radio" name="section" value="B"/>B 
+        <input  type="radio" name="section" value="C"/>C 
+        <br> 
+        
+         <!-- checkboxxx ho laaa-->
+    <label for="course"> Course:</label>
+     <input type="checkbox" name="course" value="BBA"/> BBA 
+     <input type="checkbox" name=" course" value=" BSc.IT"/> BSc.IT
+     <input type="checkbox" name="course" value="BEs"/> BEs
+     <br> 
+
+    <!-- dropdown ho laaaaa -->
+     <label for="IT">BSC.IT:</label>
+     <select name="IT">
+        <option value="Software">Software </option>
+        <option value="Network"> Network </option>
+    </select>
+    <Br>
+        <!-- date of registration-->
+     <label for="dor"> Date of registration:</label>
+      <input type="date" name="dor"/> 
+      <br>
+
+      
+      <button type="submit" name="submit"> login </button>
+    
+    </form>
+
+    
+</body>
+</html>
